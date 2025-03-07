@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^9.8.0",
+    "webdriverio": "^9.8.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.8.0",
+    "@wdio/mocha-framework": "^9.7.3",
+    "@wdio/spec-reporter": "^9.8.0",
+    "@midscene/web": "latest",
+    "@types/jest": "~29.5.14",
+    "@types/node": "~22.7.9",
+    "dotenv": "16.4.5",
+    "eslint-plugin-prettier": "~5.2.1",
+    "rimraf": "~6.0.1",
+    "typescript": "~5.6.3"
+  },
+  "scripts": {
+    "wdio": "wdio run wdio.conf.js"
+  }
+}
